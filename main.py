@@ -8,7 +8,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 app = FastAPI()
 
 # Load the DataFrame
-df = pd.read_csv(r"https://github.com/EbadaHamdy/smartto/blob/main/0.csv")
+df = pd.read_csv(r"https://raw.githubusercontent.com/EbadaHamdy/smartto/main/0.csv")
+
 
 # Convert Tag, Review, and Comment columns to string type
 df['Tag'] = df['Tag'].astype(str)
