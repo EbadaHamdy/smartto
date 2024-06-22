@@ -1,9 +1,12 @@
 fastapi
 pydantic
 pandas
-random
 scikit-learn
 numpy
 uvicorn
+fastapi==0.111.0
+pydantic==2.7.4
+pandas==2.2.2
+
 
 
